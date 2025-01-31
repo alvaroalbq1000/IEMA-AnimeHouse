@@ -1,0 +1,239 @@
+body{
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    background: rgb(50, 50, 50);
+    color: #ffffff;
+    height: 100px;
+    border-bottom: rgb(225, 225, 50) 5px solid;
+    padding-top: 15px;
+}
+
+header #logotipo{
+    margin-left: 100px;
+    float: left;
+}
+
+header nav{
+    margin-top: 15px;
+    margin-right: 100px;
+    float: right;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover{
+    color: rgb(225, 225, 50);
+}
+
+span{
+    color: rgb(225, 225, 50);
+    font-weight: bold;
+}
+
+#noticias{
+    margin: 20px;
+    height: 650px;
+    background: rgb(50, 50, 50);
+    border: 5px solid rgb(225, 225, 50);
+}
+
+#noticias h2{
+    text-align: center;
+    color: rgb(225, 225, 50);
+}
+
+.notprinc{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 400px;
+    height: 480px;
+    display: inline-table;
+    text-align: center;
+    background: rgb(200, 200, 200);
+    border-top: 5px solid rgb(225, 225, 50);
+    border-bottom: 5px solid rgb(225, 225, 50);
+}
+
+.notprinc h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.notprinc .notpimg{
+    margin: 20px;
+    width: 360px;
+    height: 360px;
+}
+
+.notprinc p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#outrasnot{
+    margin: 15px;
+    height: 60px;
+    text-align: center;
+    background: rgb(200, 200, 200);
+    border-top: 5px solid rgb(225, 225, 50);
+    border-bottom: 5px solid rgb(225, 225, 50);
+}
+
+#outrasnot ul li{
+    color: #ffffff;
+}
+
+#outrasnot ul li a{
+    margin: 0;
+}
+
+#animes{
+    margin: 20px;
+    height: 400px;
+    background: rgb(50, 50, 50);
+    border: 5px solid rgb(225, 225, 50);
+}
+
+#animes h2{
+    text-align: center;
+    color: rgb(225, 225, 50);
+}
+
+.cat_temp_cal{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 400px;
+    height: 300px;
+    display: inline-table;
+    background: rgb(200, 200, 200);
+    border-top: 5px solid rgb(225, 225, 50);
+    border-bottom: 5px solid rgb(225, 225, 50);
+}
+
+.cat_temp_cal h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.cat_temp_cal .categoria{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cat_temp_cal #temporada{
+    list-style-type: disc;
+}
+
+.cat_temp_cal .dia{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cat_temp_cal .dia ul{
+    list-style-type: disc;
+}
+
+#sobre{
+    margin: 20px;
+    height: 540px;
+    background: rgb(50, 50, 50);
+    border: 5px solid rgb(225, 225, 50);
+}
+
+#sobre h2{
+    text-align: center;
+    color: rgb(225, 225, 50);
+}
+
+#sobre center .imgsobre{
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    border: 5px solid rgb(225, 225, 50);
+}
+
+#sobre center p{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#talanime{
+    margin: 20px;
+    height: 600px;
+    background: rgb(50, 50, 50);
+    border: 5px solid rgb(225, 225, 50);
+}
+
+#talanime h2{
+    text-align: center;
+    color: rgb(225, 225, 50);
+}
+
+.animediv{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 400px;
+    height: 450px;
+    display: inline-table;
+    text-align: center;
+    background: rgb(200, 200, 200);
+    border-top: 5px solid rgb(225, 225, 50);
+    border-bottom: 5px solid rgb(225, 225, 50);
+}
+
+#talanime .animediv .animeimg{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 360px;
+    height: 360px;
+}
+
+#gif{
+    margin: 20px;
+    height: 100px;
+    border: 5px solid rgb(225, 225, 50);
+}
+
+#gif .gifanime{
+    width: 1300px;
+    height: 100px;
+}
+
+footer{
+    height: 100px;
+    padding-top: 15px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color:rgb(50, 50, 50);
+    text-align: center;
+    border-top: rgb(225, 225, 50) 5px solid;
+  }
